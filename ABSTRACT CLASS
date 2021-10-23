@@ -1,0 +1,53 @@
+package Week3.Day2;
+
+public interface HardWare {
+	
+	void hardwareResources();
+
+}
+
+=================================
+package Week3.Day2;
+
+public interface Software {
+	
+	void softwareResources();
+	
+	
+	}
+====================================
+package Week3.Day2;
+
+public class Desktop implements Software, HardWare{
+		
+	public void desktopModel() {
+		// TODO Auto-generated method stub
+
+		System.out.println("Your desktop is read with SW & HW");
+	}
+	
+	public static void main(String[] args)
+	{
+		
+		Desktop obj =new Desktop();
+		obj.desktopModel();
+		obj.hardwareResources();
+		obj.softwareResources();
+				
+		
+		
+	}
+
+	public void hardwareResources() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void softwareResources() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
+
+
